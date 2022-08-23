@@ -1,0 +1,137 @@
+* {
+    box-sizing: content-box;
+}
+body {
+    background-color: #7DF9FF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#header {
+    background-color: #23B2EE;
+    padding: 3rem 2rem;
+    color: rgb(203, 217, 247);
+    border-radius: 0.5rem;
+}
+.links {
+    float: right;
+}
+.link {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1rem;
+
+
+    }
+.link:hover {
+    color: cornflowerblue
+    
+}
+
+h1 {
+    background-color: #0892D0;
+    border-radius: 30px;
+    border-style: solid;
+    font-size: 300%;
+    justify-content: center;
+    text-align:  center;
+}
+article {
+    transition: box-shadow 0.3s ease;
+    background-color: #23B2EE;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+    cursor: pointer
+    
+}
+.main {
+    width: 75%;
+    margin: 0 auto;
+}
+.main article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+fieldset {
+    justify-content: center;
+}
+input {
+    text-align: justify;
+    width: 40%;
+}
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input [type=text], input[type=email] {
+    padding: 2px 2px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid black;
+}
+input [type=radio], label {
+    width: 20px;
+}
+textarea {
+    border: 2px solid black;
+}
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    width: 30%;
+    padding: auto;
+}
+.form {
+    width: 200px;
+    height: 25px;
+    transition: width 2s, height 4s;
+    text-overflow: none;
+    animation-name: example;
+    position: relative;
+    animation-duration: 10s;
+    overflow: hidden;
+    justify-items: center;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {background-color: rgb(42, 98, 132);}
+    25% {background-color: rgb(33, 83, 110);}
+    50% {background-color: rgb(30, 64, 133);}
+    75% {background-color: rgb(44, 95, 177);}
+    100% {background-color: rgb(34, 57, 96); }
+}
+.form:hover {
+    background-color: rgb(57, 104, 104);
+    width: 50%;
+    height: 50%;
+
+}
+
+#footer {
+    background-color: #23B2EE;
+    color: rgb(203, 217, 247);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+footer section {
+    float: right;
+}
+footer a {
+  
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1rem;
+
+    }
+footer a:hover {
+    color: cornflowerblue
+}
+footer a:active {
+    color: purple;
+}
+footer p {
+    justify-content: flex-end;
+    margin: 0;
+}
